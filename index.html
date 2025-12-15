@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>AR 卒業展示</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont;
+      text-align: center;
+      padding: 20px;
+    }
+    .item {
+      margin: 20px 0;
+    }
+    a {
+      display: inline-block;
+      padding: 16px 24px;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
 
-<a id="ar" rel="ar" href="fender_stratocaster.usdz"></a>
+<h1>AR卒業展示</h1>
+<p>表示したいコンテンツを選んでください</p>
 
-<script>
-  document.getElementById("ar").click();
-</script>
+<div class="item">
+  <a href="signboard.usdz">卒業記念看板</a>
+</div>
+
+<div class="item">
+  <a href="certificate.usdz">AR卒業証書</a>
+</div>
+
+<div class="item">
+  <a href="gate.usdz">卒業ゲート</a>
+</div>
 
 </body>
 </html>
+
+
 
 
